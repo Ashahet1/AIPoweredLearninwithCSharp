@@ -1,0 +1,7 @@
+C:\2017_OMRON_ServerLiteC#\MEMS_SlewRate\2\LITEC#Net\bin\Release\LiteTest.exe
+C:\2017_OMRON_ServerLiteC#\MEMS_SlewRate\2\LITEC#Net\bin\Release\CXLicence.dll
+C:\2017_OMRON_ServerLiteC#\MEMS_SlewRate\2\LITEC#Net\bin\Release\CXProvider.dll
+C:\2017_OMRON_ServerLiteC#\MEMS_SlewRate\2\LITEC#Net\bin\Release\CXSLite.dll
+C:\2017_OMRON_ServerLiteC#\MEMS_SlewRate\2\LITEC#Net\obj\Release\LiteTest.Form1.resources
+C:\2017_OMRON_ServerLiteC#\MEMS_SlewRate\2\LITEC#Net\obj\Release\LiteTest.csproj.GenerateResource.Cache
+C:\2017_OMRON_ServerLiteC#\MEMS_SlewRate\2\LITEC#Net\obj\Release\LiteTest.exe
