@@ -1,0 +1,4 @@
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram1\MyMultiThreadingProgram1\bin\Release\MyMultiThreadingProgram1.exe
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram1\MyMultiThreadingProgram1\bin\Release\MyMultiThreadingProgram1.pdb
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram1\MyMultiThreadingProgram1\obj\x86\Release\MyMultiThreadingProgram1.exe
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram1\MyMultiThreadingProgram1\obj\x86\Release\MyMultiThreadingProgram1.pdb
