@@ -1,0 +1,7 @@
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram2\MyMultiThreadingProgram2\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram2\MyMultiThreadingProgram2\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram2\MyMultiThreadingProgram2\obj\x86\Debug\MyMultiThreadingProgram2.csproj.GenerateResource.Cache
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram2\MyMultiThreadingProgram2\bin\Debug\MyMultiThreadingProgram2.exe
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram2\MyMultiThreadingProgram2\bin\Debug\MyMultiThreadingProgram2.pdb
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram2\MyMultiThreadingProgram2\obj\x86\Debug\MyMultiThreadingProgram2.exe
+C:\2017_OMRON_ServerLiteC#\MyMultiThreadingProgram2\MyMultiThreadingProgram2\obj\x86\Debug\MyMultiThreadingProgram2.pdb
