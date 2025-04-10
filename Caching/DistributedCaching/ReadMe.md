@@ -44,4 +44,6 @@ Based on these factors, in our example:
 * **Choosing the Right Serialization Format:** The choice of serialization format (e.g., JSON, binary) can impact performance and size. JSON is human-readable but can be less efficient in terms of size and speed compared to binary serialization.
 * **Cache Invalidation:** Regardless of the data type, one of the biggest challenges with caching is ensuring that you're not serving stale data when the underlying source data changes. You'll need to think about strategies for invalidating or updating cached data.
 * **Complexity of Cached Objects:** Caching very large and deeply nested object graphs can sometimes lead to performance issues during serialization and deserialization. It's often better to cache smaller, more focused pieces of data.
-* ![Data in DistributedCache Table](image_e7febf.png)
+
+  ![image](https://github.com/user-attachments/assets/de264ca4-e644-4758-833c-fca2f18090d3)
+
