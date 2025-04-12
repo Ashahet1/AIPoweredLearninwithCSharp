@@ -1,36 +1,103 @@
-# C# Pub/Sub Example using Events and Delegates
+# C# Many-to-One Communication using Events and Delegates
 
-Before diving into the code, here's a small write-up explaining the toy example I'll create:
+This project demonstrates the **Many-to-One communication pattern** in C#, using the built-in event handling mechanism (`delegate` and `event`). It showcases how multiple independent **Clients** (senders) can communicate with a single **Server** (receiver) by raising events.
 
-This example demonstrates the Publish/Subscribe pattern in C# using the built-in event handling mechanism (`event` keyword and delegates like `Action` or `EventHandler`).
+---
 
-## Scenario:
+## 📘 Scenario: Sensor Data Aggregation
 
-We'll model a very simple scenario: a central `MessageBroadcaster` (the **Publisher**) that sends out string messages, and several `MessageListener` objects (the **Subscribers**) that receive and display these messages.
+Imagine a system monitoring environmental conditions across a large building:
 
-## Components:
+- **Many**: Multiple sensors (clients) like temperature, humidity, and motion detectors send data.
+- **One**: A central server collects, logs, or processes this data for dashboards, alerts, and long-term storage.
 
-### MessageBroadcaster (Publisher):
+This is a classic many-to-one pattern often seen in **IoT, monitoring systems, and telemetry platforms**.
 
-* This class is responsible for sending out messages.
-* It will define a public `event`, let's call it `OnMessagePublished`. We'll likely use `Action<string>` as the delegate type for simplicity, meaning the event will carry the string message directly.
-* It will have a method, perhaps `PublishMessage(string message)`, which, when called, triggers the `OnMessagePublished` event, sending the message to all subscribed listeners.
-* Crucially, the `MessageBroadcaster` doesn't need to know *who* is listening or *how many* listeners there are. It just raises the *event*.
+---
 
-### MessageListener (Subscriber):
+## 🧱 Components
 
-* This class represents an entity interested in receiving messages.
-* Each listener will have a method, for example, `HandleMessage(string message)`, designed to match the signature of the `OnMessagePublished` event's delegate (`Action<string>`). This method will define what the listener does with the received message (e.g., print it to the console).
-* To receive messages, an instance of `MessageListener` must *subscribe* its `HandleMessage` method to the `MessageBroadcaster`'s `OnMessagePublished` event. This requires the listener to have a reference to the specific broadcaster instance it wants to listen to.
+### ✅ Server
 
-## Interaction:
+- Defines one or more events using custom delegates (e.g., `MessageReceivedEventHandler`)
+- Subscribes to its own events for handling
+- Can receive single messages or batches from any number of clients
 
-We will create one instance of `MessageBroadcaster` and multiple instances of `MessageListener`. Each listener instance will *subscribe* to the broadcaster's *event*. When the broadcaster calls its `PublishMessage` method, the .NET runtime automatically invokes the `HandleMessage` method on all subscribed listener instances, passing along the message content.
+### ✅ Client
 
-## Demonstrating Pub/Sub:
+- Sends one or multiple messages to the server
+- Triggers the server’s event handlers with data (e.g., temperature readings, alerts)
 
-This setup showcases the core idea of Pub/Sub:
+### ✅ Batch Mode (Advanced)
 
-* **Decoupling:** The broadcaster sends messages without any specific knowledge of the listeners. Listeners react to messages without knowing the internal workings of the broadcaster, beyond the *event* it exposes.
-* **One-to-Many:** One broadcast message is efficiently delivered to multiple subscribers.
+- Demonstrates sending a list of messages at once
+- Useful for optimizing communication and reducing event invocation overhead
 
+---
+
+## 🧠 Key Features
+
+- Event-driven messaging with strong C# typing
+- Multi-threaded client simulation using `Thread` for concurrency
+- Two versions:
+  - **Single message per client** (`Client1`, `Server1`)
+  - **Batch message from client** (`Client2`, `Server2`)
+
+---
+
+## ⚖️ Pros & Cons
+
+### ✅ Pros
+- Centralized processing
+- Clean separation of concerns (sensors vs aggregator)
+- Easier to scale or manage updates centrally
+
+### ⚠️ Cons
+- Potential single point of failure (the server)
+- Requires handling for high-volume event throughput
+- Network dependency across clients
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo
+2. Open the project in Visual Studio or VS Code
+3. Uncomment either `Main` method from:
+   - `ManyToOneEventExample` (for single-message)
+   - `ManyToOneBatchExample` (for batch-message)
+4. Run:
+
+```bash
+dotnet build
+dotnet run
+```
+
+---
+
+## 🛠 Requirements
+
+- .NET SDK 6.0+
+- C# 10+
+
+---
+
+## 🔄 Possible Extensions
+
+- Asynchronous event processing with `async/await`
+- Logging and metrics (e.g., message count, timestamps)
+- Web-based dashboard or REST API server simulation
+- Fault-tolerant queue or retry mechanism
+
+---
+
+## 👩‍💻 Author
+
+Built by **Riddhi Shah**  
+Let’s connect on [LinkedIn](https://www.linkedin.com/) or [GitHub](https://github.com/)
+
+---
+
+## 📚 License
+
+This project is intended for learning and demonstration purposes. Feel free to fork and build upon it.
