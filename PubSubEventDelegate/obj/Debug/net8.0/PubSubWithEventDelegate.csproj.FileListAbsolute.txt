@@ -1,0 +1,14 @@
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\bin\Debug\net8.0\PubSubWithEventDelegate.exe
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\bin\Debug\net8.0\PubSubWithEventDelegate.deps.json
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\bin\Debug\net8.0\PubSubWithEventDelegate.runtimeconfig.json
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\bin\Debug\net8.0\PubSubWithEventDelegate.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\bin\Debug\net8.0\PubSubWithEventDelegate.pdb
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\PubSubWithEventDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\PubSubWithEventDelegate.AssemblyInfoInputs.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\PubSubWithEventDelegate.AssemblyInfo.cs
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\PubSubWithEventDelegate.csproj.CoreCompileInputs.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\PubSubWithEventDelegate.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\refint\PubSubWithEventDelegate.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\PubSubWithEventDelegate.pdb
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\PubSubWithEventDelegate.genruntimeconfig.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\PubSubWithEventDelegate\obj\Debug\net8.0\ref\PubSubWithEventDelegate.dll
