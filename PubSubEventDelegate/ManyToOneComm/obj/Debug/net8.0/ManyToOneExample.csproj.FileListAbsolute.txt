@@ -1,0 +1,14 @@
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\bin\Debug\net8.0\ManyToOneExample.exe
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\bin\Debug\net8.0\ManyToOneExample.deps.json
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\bin\Debug\net8.0\ManyToOneExample.runtimeconfig.json
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\bin\Debug\net8.0\ManyToOneExample.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\bin\Debug\net8.0\ManyToOneExample.pdb
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ManyToOneExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ManyToOneExample.AssemblyInfoInputs.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ManyToOneExample.AssemblyInfo.cs
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ManyToOneExample.csproj.CoreCompileInputs.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ManyToOneExample.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\refint\ManyToOneExample.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ManyToOneExample.pdb
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ManyToOneExample.genruntimeconfig.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\Pub_Sub\Event_Delegate\ManyToOneExample\obj\Debug\net8.0\ref\ManyToOneExample.dll
