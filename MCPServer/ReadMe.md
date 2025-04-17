@@ -23,7 +23,7 @@ The Model Context Protocol (MCP) is an open standard developed by Anthropic to f
 
 1. **Clone the Repository**:
 ```bash
-git clone https://github.com/yourusername/MonkeyMCP.git
+git clone https://github.com/Ashahet1/MonkeyMCP.git
 cd MonkeyMCP
 ```
 
