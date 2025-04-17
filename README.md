@@ -1,6 +1,6 @@
-# C# Examples – Caching, Threading, and Pub/Sub
+* # C# Examples – Caching, Threading, Pub/Sub, MCP Server
 
-This repository contains a collection of **minimal, focused C# examples** demonstrating key concepts in modern application development: **Caching**, **Threading**, and the **Publisher-Subscriber (Pub/Sub)** pattern using events and delegates.
+This repository contains a collection of **minimal, focused C# examples** demonstrating key concepts in modern application development: **Caching**, **Threading**, the **Publisher-Subscriber (Pub/Sub)** pattern using events and delegates, and **MCP Server interaction**.
 
 These examples are intentionally simple to serve as a learning aid, reference point, or interview prep material. Each module is self-contained and illustrates one core idea at a time.
 
@@ -31,6 +31,17 @@ Implements one-to-many, many-to-one, and many-to-many communication patterns usi
 - Decoupling publisher and subscriber logic
 - Real-world analogies like sensor aggregation and message broadcasting
 - Topic-based filtering for many-to-many scenarios
+
+---
+
+### 4. 🐒 MCP Server with Monkey App
+Demonstrates interaction with a Minecraft Protocol (MCP) server to manage and retrieve information about in-world entities referred to as "monkeys." Provides tools to list all monkeys and get specific details by name.
+
+**Key concepts:**
+- Interacting with a Minecraft server using the MCP.
+- Retrieving lists of entities within the game world.
+- Querying specific entity details by their identifier.
+- Server administration and monitoring through custom tools.
 
 ---
 
