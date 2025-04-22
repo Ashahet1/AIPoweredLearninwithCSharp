@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
-using MCPServer;
+using AICodeNavigator;
 
 var builder = Host.CreateApplicationBuilder(args);
 

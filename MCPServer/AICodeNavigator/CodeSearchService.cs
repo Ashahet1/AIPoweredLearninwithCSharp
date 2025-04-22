@@ -1,7 +1,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace MCPServer;
+namespace AICodeNavigator;
 
 public class CodeSearchService
 {

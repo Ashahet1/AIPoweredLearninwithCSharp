@@ -1,0 +1,6 @@
+/workspaces/C-Project/MCPServer/AICodeNavigator/obj/Debug/net8.0/MCPServer.csproj.AssemblyReference.cache
+/workspaces/C-Project/MCPServer/AICodeNavigator/obj/Debug/net8.0/MCPServer.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Project/MCPServer/AICodeNavigator/obj/Debug/net8.0/MCPServer.AssemblyInfoInputs.cache
+/workspaces/C-Project/MCPServer/AICodeNavigator/obj/Debug/net8.0/MCPServer.AssemblyInfo.cs
+/workspaces/C-Project/MCPServer/AICodeNavigator/obj/Debug/net8.0/MCPServer.csproj.CoreCompileInputs.cache
+/workspaces/C-Project/MCPServer/AICodeNavigator/obj/Debug/net8.0/MCPServer.sourcelink.json
