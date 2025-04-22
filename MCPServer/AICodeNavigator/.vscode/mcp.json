@@ -1,0 +1,16 @@
+    {   
+        "servers": {
+            
+            "my-mcp-server-ef7bc598": {
+                "type": "stdio",
+                "command": "dotnet",
+                "args": [
+                    "run",
+                    "--project",
+                    "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\MCP_Server\\C-Project\\MCPServer\\AICodeNavigator"
+                ]
+            }
+           
+        }
+    }
+    
