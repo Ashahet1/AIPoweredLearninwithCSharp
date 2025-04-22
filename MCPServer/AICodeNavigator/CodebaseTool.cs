@@ -28,5 +28,12 @@ namespace AICodeNavigator
             var summary = await codeSearchService.SummarizeFile(filePath);
             return summary;
         }
+        [McpServerTool, Description("Search C# files for a specific keyword.")]
+        public static async Task<string> SearchCodebase(CodeSearchService service, string keyword)
+        {
+            var results = await service.Search(keyword);
+            return JsonSerializer.Serialize(results);
+        }
+
     }
 }
