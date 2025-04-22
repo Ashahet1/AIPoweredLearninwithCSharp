@@ -15,7 +15,7 @@ This project is a developer productivity tool built using the [Model Context Pro
 ## 🧠 Use Case
 
 Ask an LLM agent:  
-> _"Where is the `ConfigureServices` method defined?"_
+> _"Where is the `GetMaxCurrentInRange` method defined?"_
 
 The agent will:
 1. Call `SearchCodebase` to locate the file and line.
@@ -101,31 +101,9 @@ Create a file named `mcp.json` in the project root:
 
 ## 🧪 Example MCP Tools
 
-### `SearchCodebase`
+![Demonstration of the software](AICodeNavigator.gif)
 
-```json
-{
-  "keyword": "ConfigureServices"
-}
-```
 
-### `ReadFile`
-
-```json
-{
-  "filePath": "Services/UserService.cs"
-}
-```
-
-### `SummarizeFile`
-
-```json
-{
-  "filePath": "Startup.cs"
-}
-```
-
----
 
 ## 📊 Architecture Diagram
 
