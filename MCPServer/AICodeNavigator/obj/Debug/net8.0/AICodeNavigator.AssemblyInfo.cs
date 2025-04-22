@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AICodeNavigator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ab3d72b226a110e7aa57404f26617391c23bfe0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728ea36854edbd16b3405765c3982fb20b449442")]
 [assembly: System.Reflection.AssemblyProductAttribute("AICodeNavigator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AICodeNavigator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
