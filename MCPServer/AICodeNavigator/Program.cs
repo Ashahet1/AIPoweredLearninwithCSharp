@@ -13,7 +13,7 @@ builder.Logging.AddConsole(consoleLogOptions =>
 });
 
 // Register CodeSearchService with a configurable root directory
-string rootCodeDirectory = @"C:\Path\To\Your\Codebase";  // 🔁 Replace with your actual code folder path
+string rootCodeDirectory = @"C:\03132025\TESTA";  // 🔁 Replace with your actual code folder path
 builder.Services.AddSingleton(new CodeSearchService(rootCodeDirectory));
 
 // Register MCP server tools from assembly
