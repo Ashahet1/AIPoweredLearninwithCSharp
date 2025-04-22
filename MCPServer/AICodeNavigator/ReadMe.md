@@ -1,6 +1,3 @@
-Absolutely! Here's the complete `README.md` in **one single markdown cell** so you can copy and paste it directly:
-
-````markdown
 # 🔍 AI Codebase Navigator (MCP + C#)
 
 This project is a developer productivity tool built using the [Model Context Protocol (MCP)](https://modelcontextprotocol.dev), designed to let AI assistants interact with a local C# codebase through structured tools. It enables intelligent codebase exploration via search, file reading, and basic summarization — ideal for integrating with tools like **GitHub Copilot Agent Mode**.
@@ -154,4 +151,4 @@ User → GitHub Copilot Agent Mode → MCP Server (C#):
 ## 📄 License
 
 MIT © 2024 [Riddhi Shah]
-````
+
