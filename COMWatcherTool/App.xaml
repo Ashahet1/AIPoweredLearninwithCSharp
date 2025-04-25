@@ -1,0 +1,26 @@
+﻿<Application x:Class="COMWatcherTool.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:COMWatcherTool"
+             xmlns:tb="http://www.hardcodet.net/taskbar"
+             StartupUri="MainWindow.xaml"
+             ShutdownMode="OnExplicitShutdown"> 
+
+<Application.Resources>
+    <tb:TaskbarIcon x:Key="NotifyIcon"
+                        IconSource="C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\COMWatcherTool\Assests\SR-2000.ico"
+                        ToolTipText="COM Registration Watcher">
+        <tb:TaskbarIcon.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Start Monitoring" Click="StartMonitoring_Click"/>
+                <MenuItem Header="Stop Monitoring" Click="StopMonitoring_Click"/> 
+                    <Separator/>
+                    <MenuItem Header="Settings" Click="Settings_Click"/>
+                    <Separator/>
+                    <MenuItem Header="Exit" Click="Exit_Click"/>
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+
+        </Application.Resources>
+</Application>
