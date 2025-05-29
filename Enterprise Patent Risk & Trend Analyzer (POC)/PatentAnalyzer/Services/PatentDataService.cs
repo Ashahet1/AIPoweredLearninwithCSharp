@@ -1,38 +1,33 @@
 // Services/PatentDataService.cs
 
 using PatentAnalyzer.Models;
-using PatentAnalyzer.USPTOApiModels; // Import the USPTO DTOs
+using PatentAnalyzer.USPTOApiModels;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System; // Make sure System is included for DateTime
 
 namespace PatentAnalyzer.Services
 {
     public class PatentDataService : IPatentDataService
     {
         private readonly IUSPTOApiClient _usptoApiClient;
-        // In a real app, you'd inject a database context here
-        // private readonly ApplicationDbContext _dbContext;
-
-        // Using in-memory lists for POC simplicity *before* full DB integration
         private readonly List<Patent> _patents = new();
         private readonly List<Risk> _risks = new();
         private readonly List<Trend> _trends = new();
 
-        public PatentDataService(IUSPTOApiClient usptoApiClient /*, ApplicationDbContext dbContext */)
+        public PatentDataService(IUSPTOApiClient usptoApiClient)
         {
             _usptoApiClient = usptoApiClient;
-            // _dbContext = dbContext;
         }
 
         public async Task IngestNewPatentsAsync(int numberOfPatentsToIngest)
         {
             Console.WriteLine($"Attempting to ingest {numberOfPatentsToIngest} patents from USPTO...");
 
-            // --- CALL THE NEW USPTO API ---
             string searchTerm = "Artificial Intelligence"; // Example search term
             int limit = numberOfPatentsToIngest;
-            int offset = 0; // Start from beginning
+            int offset = 0;
 
             PatentApplicationSearchResponse apiResponse = await _usptoApiClient.SearchPatentApplicationsAsync(searchTerm, limit, offset);
 
@@ -42,7 +37,6 @@ namespace PatentAnalyzer.Services
 
                 foreach (var usptoPatentData in apiResponse.PatentFileWrapperDataBag)
                 {
-                    // --- MAP USPTO DTO TO INTERNAL PATENT MODEL ---
                     var newPatent = MapUSPTOToInternalPatent(usptoPatentData);
                     if (newPatent != null)
                     {
@@ -65,57 +59,55 @@ namespace PatentAnalyzer.Services
             Console.WriteLine($"Finished ingestion process.");
         }
 
-        // --- CORRECTED MAPPER METHOD ---
         private Patent? MapUSPTOToInternalPatent(PatentFileWrapperDataBag usptoPatentData)
         {
-            if (usptoPatentData == null || (string.IsNullOrEmpty(usptoPatentData.ApplicationNumberText) && string.IsNullOrEmpty(usptoPatentData.PatentNumber)))
+            // Ensure usptoPatentData and its ApplicationMetaData are not null for core properties
+            if (usptoPatentData?.ApplicationMetaData == null)
             {
                 return null;
             }
 
-            // Prioritize PatentNumber if available, otherwise use ApplicationNumberText
-            string patentId = usptoPatentData.PatentNumber ?? usptoPatentData.ApplicationNumberText!;
-
+                string patentId = usptoPatentData.ApplicationNumberText ?? // This is the new primary source for ID
+                      usptoPatentData.ApplicationMetaData.ApplicationNumberText ??
+                      Guid.NewGuid().ToString();
             var patent = new Patent
             {
                 Id = patentId,
-                Title = usptoPatentData.InventionTitle ?? "N/A",
 
-                // --- CORRECTIONS HERE ---
-                // Abstract: This field was NOT explicitly listed in the response properties you shared.
-                // You will need to check the actual JSON response or USPTO's full schema/Swagger for where it is.
-                // For now, it's set to N/A.
-                Abstract = "N/A - Abstract field location needs to be confirmed from USPTO API response.",
+                // --- CORRECTED MAPPING BASED ON JSON ---
+                Title = usptoPatentData.ApplicationMetaData.InventionTitle ?? "N/A", // Found under ApplicationMetaData
 
-                // Claims: Similar to Abstract, not explicitly listed.
-                // You will need to confirm where this is returned.
-                Claims = new string[] { "N/A - Claims field location needs to be confirmed from USPTO API response." },
+                // Abstract and Claims are NOT present in the provided JSON for this endpoint.
+                // They will remain placeholders or empty.
+                Abstract = "N/A - Abstract not found in this API response. May require another endpoint.",
+                Claims = new string[] { "N/A - Claims not found in this API response. May require another endpoint." },
 
-                // Assignee: This is nested within AssignmentBag
-                Assignee = usptoPatentData.AssignmentBag?.FirstOrDefault()?.AssigneeBag?.FirstOrDefault()?.AssigneeNameText ?? "N/A",
+                // Assignee: Using ApplicantNameText from the first applicant in ApplicationMetaData
+                Assignee = usptoPatentData.ApplicationMetaData.ApplicantBag?.FirstOrDefault()?.ApplicantNameText ?? "N/A",
 
-                // Inventors: This is a list of InventorBag
-                Inventors = usptoPatentData.InventorBag?.Select(i => i.InventorNameText ?? "N/A").ToArray() ?? new string[0],
+                // Inventors: Using InventorNameText from the list of inventors in ApplicationMetaData
+                Inventors = usptoPatentData.ApplicationMetaData.InventorBag?.Select(i => i.InventorNameText ?? "N/A").ToArray() ?? new string[0],
 
-                // PublicationDate: This is directly on PatentFileWrapperDataBag
-                PublicationDate = usptoPatentData.EarliestPublicationDate ?? DateTime.MinValue,
+                // PublicationDate: Found directly under ApplicationMetaData
+                PublicationDate = usptoPatentData.ApplicationMetaData.EarliestPublicationDate ?? DateTime.MinValue,
 
-                // GrantDate: This is directly on PatentFileWrapperDataBag
-                GrantDate = usptoPatentData.GrantDate,
+                // GrantDate: Not found in this API response. Applications are not granted.
+                GrantDate = null, // Set to null as it's not provided by this endpoint
 
-                // ClassificationCode: This is a list of CpcClassificationBag
-                ClassificationCode = usptoPatentData.CpcClassificationBag?.FirstOrDefault()?.CpcSymbol ?? "N/A",
+                // ClassificationCode: Found under ApplicationMetaData -> CpcClassificationBag
+                ClassificationCode = usptoPatentData.ApplicationMetaData.CpcClassificationBag?.FirstOrDefault() ?? "N/A",
 
-                Url = $"https://patents.google.com/patent/{patentId}" // Still a placeholder, check USPTO API for official URL
+                // Consider adding more fields based on your JSON if useful for your Patent model
+                // Example: ApplicationNumberText, FilingDate, ApplicationStatusDescriptionText, etc.
+                // You can add these to your Patent model and map them here.
+
+                Url = $"https://patents.google.com/patent/{patentId}" // Still a placeholder, consider a more official link if available
             };
-
-            // You'll need to meticulously map all other relevant fields
-            // based on the actual API response JSON structure.
 
             return patent;
         }
 
-        // --- Other methods remain largely the same ---
+        // --- Other methods remain the same ---
         public Task<Patent?> GetPatentByIdAsync(string id) => Task.FromResult(_patents.FirstOrDefault(p => p.Id == id));
         public Task<IEnumerable<Patent>> GetAllPatentsAsync() => Task.FromResult<IEnumerable<Patent>>(_patents);
         public Task<IEnumerable<Risk>> GetRisksAsync() => Task.FromResult<IEnumerable<Risk>>(_risks);
