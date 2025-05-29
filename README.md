@@ -43,7 +43,12 @@ Demonstrates interaction with a Minecraft Protocol (MCP) server to manage and re
 - Querying specific entity details by their identifier.
 - Server administration and monitoring through custom tools.
 
----
+### 4.1 🔍 AI Codebase Navigator (MCP + C#)
+This project is a developer productivity tool built using the Model Context Protocol (MCP), designed to let AI assistants interact with a local C# codebase through structured tools. It enables intelligent codebase exploration via search, file reading, and basic summarization — ideal for integrating with tools like GitHub Copilot Agent Mode.
+
+### 5. Enterprise Patent Risk & Trend Analyzer (POC)
+
+This project is a **Proof of Concept** for a modern enterprise platform that helps companies monitor, analyze, and predict patent risks and trends using AI, LLMs, and multi-agent protocols.
 
 ## 🚀 How to Run
 
