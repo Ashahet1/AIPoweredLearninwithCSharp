@@ -16,7 +16,7 @@ namespace PatentAnalyzer.USPTOApiModels
     // Corresponds to 'PatentFileWrapperDataBag' in the API response
     public class PatentFileWrapperDataBag
     {
-            public ApplicationMetaData? ApplicationMetaData { get; set; }
+    public ApplicationMetaData? ApplicationMetaData { get; set; }
     public List<CpcClassificationBag>? CpcClassificationBag { get; set; }
     public List<ApplicantBag>? ApplicantBag { get; set; }
     public List<InventorBag>? InventorBag { get; set; }
@@ -31,9 +31,9 @@ namespace PatentAnalyzer.USPTOApiModels
     public PgpubDocumentMetaData? PgpubDocumentMetaData { get; set; }
     public GrantDocumentMetaData? GrantDocumentMetaData { get; set; }
     // --- End of previously missing types ---
-
+     public string? ApplicationNumberText { get; set; } // <--- THIS ONE!
     public DateTime? LastIngestionDateTime { get; set; }
-    public string? ApplicationNumberText { get; set; } // The actual application number
+    
     public string? InventionTitle { get; set; }
     public string? PatentNumber { get; set; } // If it's a granted patent
     public string? ApplicationStatusDescriptionText { get; set; }
@@ -58,17 +58,13 @@ namespace PatentAnalyzer.USPTOApiModels
 
     public string? AbstractText { get; set; } // Adding this placeholder based on common API responses, check actual schema
     public List<string>? ClaimText { get; set; } // Adding this placeholder, check actual schema
-    // ... add other direct properties from the response as needed
+  
+        // ... add other direct properties from the response as needed
+
     }
 
     // Existing and necessary definitions:
 
-    public class ApplicationMetaData
-    {
-        public string? FirstInventorToFileIndicator { get; set; }
-        public bool? NationalStageIndicator { get; set; }
-        // Add any other properties from ApplicationMetaData here based on the schema
-    }
 
     public class CpcClassificationBag
     {
@@ -76,19 +72,60 @@ namespace PatentAnalyzer.USPTOApiModels
         // Add other CPC properties here based on the schema
     }
 
-    public class ApplicantBag
-    {
-        public string? ApplicantNameText { get; set; }
-        public CorrespondenceAddressBag? CorrespondenceAddressBag { get; set; } // Nested type
-        // Add any other properties from ApplicantBag here based on the schema
-    }
+// Inside USPTOApiModels/PatentApplicationSearchResponse.cs
 
-    public class InventorBag
-    {
-        public string? InventorNameText { get; set; }
-        public CorrespondenceAddressBag? CorrespondenceAddressBag { get; set; } // Nested type
-        // Add any other properties from InventorBag here based on the schema
-    }
+public class ApplicationMetaData
+{
+    public string? InventionTitle { get; set; } // For patent Title
+    public DateTime? EarliestPublicationDate { get; set; } // For PublicationDate
+    public List<InventorBag>? InventorBag { get; set; } // For Inventors
+    public List<ApplicantBag>? ApplicantBag { get; set; } // For Assignee
+    public List<string>? CpcClassificationBag { get; set; } // For ClassificationCode (it's a list of strings directly)
+
+    // Other existing properties you found in your JSON, e.g.:
+    public string? ApplicationNumberText { get; set; }
+    public string? PatentNumber { get; set; } // If available
+    public string? FirstInventorToFileIndicator { get; set; }
+    public int? ApplicationStatusCode { get; set; }
+    
+    public DateTime? FilingDate { get; set; }
+    public string? UspcSymbolText { get; set; }
+    public bool? NationalStageIndicator { get; set; }
+    public string? FirstInventorName { get; set; }
+    public DateTime? EffectiveFilingDate { get; set; }
+    public string? ApplicationTypeLabelName { get; set; }
+    public DateTime? ApplicationStatusDate { get; set; }
+    public string? Class { get; set; }
+    public string? ApplicationTypeCategory { get; set; }
+    public string? ApplicationStatusDescriptionText { get; set; }
+    public string? FirstApplicantName { get; set; }
+    public int? CustomerNumber { get; set; }
+    public string? GroupArtUnitNumber { get; set; }
+    public string? EarliestPublicationNumber { get; set; }
+    public int? ApplicationConfirmationNumber { get; set; }
+    public string? ExaminerNameText { get; set; }
+    public string? Subclass { get; set; }
+    public List<string>? PublicationCategoryBag { get; set; }
+    public string? DocketNumber { get; set; }
+
+    // Make sure InventorBag, ApplicantBag, etc. classes are also correctly defined below this.
+}
+
+public class InventorBag
+{
+    public string? FirstName { get; set; }
+    public string? LastName { get; set; }
+    public string? InventorNameText { get; set; } // This is the field we're using
+    // Add other properties if needed
+}
+
+public class ApplicantBag
+{
+    public string? ApplicantNameText { get; set; } // This is the field we're using for Assignee
+    public string? FirstName { get; set; } // If applicant can be an individual
+    public string? LastName { get; set; } // If applicant can be an individual
+    // Add other properties if needed
+}
 
     public class AssignmentBag
     {
