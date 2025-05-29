@@ -1,0 +1,6 @@
+@PatentAnalyzer_HostAddress = http://localhost:5183
+
+GET {{PatentAnalyzer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
