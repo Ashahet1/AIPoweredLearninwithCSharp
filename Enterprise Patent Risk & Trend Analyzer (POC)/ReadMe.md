@@ -15,7 +15,7 @@ This project is a **Proof of Concept** for a modern enterprise platform that hel
 
 ## 💡 Project Goals (POC)
 
-- **Real-time Patent Intelligence**: Constantly gather patent filings, litigation news, legal opinions, competitor filings, and research articles.
+- **Real-time Patent Intelligence**: Constantly gather patent filings and research articles with insightful bullets.
 - **AI-Powered Insights**: Use LangChain & LLMs to identify infringement risks, expired/expiring patents, and emerging “hot” areas.
 - **Enterprise-Ready Architecture**: Modular, agentic, and scalable—designed for integration and automation.
 - **API-First**: Everything accessible via secure REST endpoints.
