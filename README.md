@@ -16,13 +16,17 @@ Demonstrates how to implement basic in-memory caching strategies in C# using dic
 - Lazy cache loading
 - Performance gain through repeated lookups
 
+---
+
 ### 2. 🧵 Threading
 Covers basic multi-threading concepts using `Thread`, `Thread.Sleep`, and `Thread.Join`.
 
 **Key concepts:**
 - Creating and managing threads
 - Simulating concurrent operations
-- Synchronization and timing considerations
+- Synchronization and timing considerations.
+
+---
 
 ### 3. 📣 Pub/Sub (Publisher-Subscriber)
 Implements one-to-many, many-to-one, and many-to-many communication patterns using C# `event`, `delegate`, and `EventHandler`.
