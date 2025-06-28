@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoAspireAppList-master\\AspireTodoApp\\AspireTodoApp.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AspireTodoApp.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AspireTodoApp.Web.j54mxlsq29.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AspireTodoApp.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AspireTodoApp.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.AspireTodoApp.Web.props",
+      "PackagePath": "build\\AspireTodoApp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.AspireTodoApp.Web.props",
+      "PackagePath": "buildMultiTargeting\\AspireTodoApp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.AspireTodoApp.Web.props",
+      "PackagePath": "buildTransitive\\AspireTodoApp.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

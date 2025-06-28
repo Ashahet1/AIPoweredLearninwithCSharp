@@ -1,0 +1,8 @@
+| Problem                                  | How We Fixed                                       |
+| ---------------------------------------- | -------------------------------------------------- |
+| Missing .csproj                          | Created project with `dotnet new mvc`              |
+| Missing EF Core packages                 | Installed Sqlite + Design packages                 |
+| `dotnet ef` failed — no DbContextFactory | Created `AppDbContextFactory.cs`                   |
+| Error: "Primary key required"            | Added `[Key]` to `TodoId` in model                 |
+| Template errors (ErrorViewModel missing) | Deleted `Error.cshtml` + Error() in HomeController |
+| Build failed on Mac — no migration       | Solved after adding DbContextFactory + primary key |

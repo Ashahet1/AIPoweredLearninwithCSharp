@@ -1,0 +1,26 @@
+@model ToDoWebAppList.Models.TodoItem
+
+<h1>Add New Todo Item</h1>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title" required />
+        <span asp-validation-for="Title" class="text-danger"></span> @* Add this line *@
+    </div>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div> @* Add this near the top of the form for overall errors *@
+    @* --- NEW: Add input for Notes here --- *@
+    <div>
+        <label asp-for="Notes">Notes:</label>
+        <textarea asp-for="Notes" rows="3"></textarea> @* Using textarea for multi-line notes *@
+        <span asp-validation-for="Notes" class="text-danger"></span>
+    </div>
+    @* --- END NEW --- *@
+    <div>
+        <label>Is Complete:</label>
+        <input asp-for="IsComplete" type="checkbox" />
+    </div>
+    
+    <button type="submit">Save</button>
+</form>

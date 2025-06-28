@@ -1,0 +1,12 @@
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\bin\Debug\net8.0\AspireTodoApp.ServiceDefaults.deps.json
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\bin\Debug\net8.0\AspireTodoApp.ServiceDefaults.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\bin\Debug\net8.0\AspireTodoApp.ServiceDefaults.pdb
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\AspireTodoApp.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\AspireTodoApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\AspireTodoApp.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\AspireTodoApp.ServiceDefaults.AssemblyInfo.cs
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\AspireTodoApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\AspireTodoApp.ServiceDefaults.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\refint\AspireTodoApp.ServiceDefaults.dll
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\AspireTodoApp.ServiceDefaults.pdb
+C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ServiceDefaults\obj\Debug\net8.0\ref\AspireTodoApp.ServiceDefaults.dll

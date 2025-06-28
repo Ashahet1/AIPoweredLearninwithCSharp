@@ -1,0 +1,282 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rishah\\AppData\\Local\\SourceServer\\fb63d8af464f6bf3a2609aa4d68a839c069f84deb98a341ca82b9d4358b3e715\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\views\\todo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:views\\todo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rishah\\AppData\\Roaming\\Microsoft\\UserSecrets\\a09b96c5-b19e-4c9e-bd42-c18c6650c672\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|c:\\users\\rishah\\onedrive\\pictures\\desktop\\microsoft ml.net\\todowebapplist-master\\todowebapplist-master\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C558CEA7-4F11-63D8-AA3B-2F59B883673B}|ToDoWebAppList.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rishah\\AppData\\Local\\SourceServer\\fb63d8af464f6bf3a2609aa4d68a839c069f84deb98a341ca82b9d4358b3e715\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\fb63d8af464f6bf3a2609aa4d68a839c069f84deb98a341ca82b9d4358b3e715\\Program.cs",
+              "ToolTip": "C:\\Users\\rishah\\AppData\\Local\\SourceServer\\fb63d8af464f6bf3a2609aa4d68a839c069f84deb98a341ca82b9d4358b3e715\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\fb63d8af464f6bf3a2609aa4d68a839c069f84deb98a341ca82b9d4358b3e715\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T20:23:48.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-20T20:23:20.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\ToDo\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Delete.cshtml",
+              "RelativeToolTip": "Views\\ToDo\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T19:59:33.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T19:53:10.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:17:00.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T19:16:57.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:48:13.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:48:02.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\rishah\\AppData\\Roaming\\Microsoft\\UserSecrets\\a09b96c5-b19e-4c9e-bd42-c18c6650c672\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\a09b96c5-b19e-4c9e-bd42-c18c6650c672\\secrets.json",
+              "ToolTip": "C:\\Users\\rishah\\AppData\\Roaming\\Microsoft\\UserSecrets\\a09b96c5-b19e-4c9e-bd42-c18c6650c672\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\a09b96c5-b19e-4c9e-bd42-c18c6650c672\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T17:44:47.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ToDo\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ToDo\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:01:54.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ToDo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Index.cshtml",
+              "RelativeToolTip": "Views\\ToDo\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T16:50:06.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ToDo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Views\\ToDo\\Create.cshtml",
+              "RelativeToolTip": "Views\\ToDo\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T16:44:23.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T16:41:27.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoWebAppList-master\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "Controllers\\ToDoController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAIAxwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:37:48.832Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

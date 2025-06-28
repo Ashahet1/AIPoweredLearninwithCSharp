@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AspireTodoApp.Web/AspireTodoApp.Web.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AspireTodoApp.Web.j54mxlsq29.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 27 Jun 2025 20:31:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AspireTodoApp.Web/AspireTodoApp.Web.j54mxlsq29.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AspireTodoApp.Web.j54mxlsq29.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j54mxlsq29"},{"Name":"integrity","Value":"sha256-hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA="},{"Name":"label","Value":"_content/AspireTodoApp.Web/AspireTodoApp.Web.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 27 Jun 2025 20:31:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,304 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "AspireTodoApp.Web.j54mxlsq29.styles.css",
+      "AssetFile": "AspireTodoApp.Web.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001828153565"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DZraCP8TbK7RtlUVQZEnlogX2jQotT+mrb2Hf0hOQEM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:31:04 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j54mxlsq29"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA="
+        },
+        {
+          "Name": "label",
+          "Value": "AspireTodoApp.Web.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "AspireTodoApp.Web.j54mxlsq29.styles.css",
+      "AssetFile": "AspireTodoApp.Web.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:31:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j54mxlsq29"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA="
+        },
+        {
+          "Name": "label",
+          "Value": "AspireTodoApp.Web.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "AspireTodoApp.Web.j54mxlsq29.styles.css.gz",
+      "AssetFile": "AspireTodoApp.Web.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DZraCP8TbK7RtlUVQZEnlogX2jQotT+mrb2Hf0hOQEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:31:04 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j54mxlsq29"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DZraCP8TbK7RtlUVQZEnlogX2jQotT+mrb2Hf0hOQEM="
+        },
+        {
+          "Name": "label",
+          "Value": "AspireTodoApp.Web.styles.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "AspireTodoApp.Web.styles.css",
+      "AssetFile": "AspireTodoApp.Web.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001828153565"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DZraCP8TbK7RtlUVQZEnlogX2jQotT+mrb2Hf0hOQEM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:31:04 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA="
+        }
+      ]
+    },
+    {
+      "Route": "AspireTodoApp.Web.styles.css",
+      "AssetFile": "AspireTodoApp.Web.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:31:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hzOrtEUAM/FR4/XYD6v7BARFmz99uIfpzICvlXX97IA="
+        }
+      ]
+    },
+    {
+      "Route": "AspireTodoApp.Web.styles.css.gz",
+      "AssetFile": "AspireTodoApp.Web.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DZraCP8TbK7RtlUVQZEnlogX2jQotT+mrb2Hf0hOQEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 20:31:04 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DZraCP8TbK7RtlUVQZEnlogX2jQotT+mrb2Hf0hOQEM="
+        }
+      ]
+    }
+  ]
+}

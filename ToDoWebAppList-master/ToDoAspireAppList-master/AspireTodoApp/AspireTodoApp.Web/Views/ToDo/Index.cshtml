@@ -1,0 +1,33 @@
+﻿@model IEnumerable<AspireTodoApp.ApiService.Models.TodoItem>
+
+<h1>My Todo List</h1>
+<p>
+    Welcome to your To-Do List!
+    <a asp-action="Create">Add New Task</a> @* Removed '|' inside link and extra <p> *@
+</p> @* Removed the extra </p> tag here *@
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Task</th>          
+            <th>Status</th>
+            <th>Actions</th> 
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@(item.IsComplete ? "Completed" : "Not completed")</td>
+                <td>
+                    @* <--- This <td> is now correctly inside the <tr> *@
+                    <a asp-action="Edit" asp-route-id="@item.ToDoId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ToDoId">Delete</a> @* Added Delete link for completeness *@
+                </td> @* <--- This <td> closes the Actions column *@
+                <td>@item.Notes</td> @* Added Notes column *@
+            </tr> @* <--- This <tr> now correctly wraps all 3 <td> cells *@
+        }
+    </tbody>
+</table>

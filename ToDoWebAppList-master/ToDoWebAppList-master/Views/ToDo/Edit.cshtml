@@ -1,0 +1,30 @@
+﻿@model ToDoWebAppList.Models.TodoItem
+
+<h1>Edit Todo Item</h1>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken() @* <--- ADDED: Critical for security *@
+    <input type="hidden" asp-for="ToDoId" /> @* <--- CORRECTED: Changed Id to ToDoId *@
+
+    <div>
+        <label asp-for="Title"></label> @* Recommended: Use asp-for for label too *@
+        <input asp-for="Title" required /> @* Recommended: Add required for client-side validation *@
+        <span asp-validation-for="Title" class="text-danger"></span> @* Recommended: For displaying validation messages *@
+    </div>
+    @* --- NEW: Add input for Notes here --- *@
+    <div>
+        <label asp-for="Notes">Notes:</label>
+        <textarea asp-for="Notes" rows="3"></textarea> @* Using textarea for multi-line notes *@
+        <span asp-validation-for="Notes" class="text-danger"></span>
+    </div>
+    @* --- END NEW --- *@
+    <div>
+        <label asp-for="IsComplete"></label> @* Recommended: Use asp-for for label too *@
+        <input asp-for="IsComplete" type="checkbox" />
+    </div>
+
+    @* Optional: For overall model errors not tied to a specific field *@
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <button type="submit">Save</button>
+</form>
