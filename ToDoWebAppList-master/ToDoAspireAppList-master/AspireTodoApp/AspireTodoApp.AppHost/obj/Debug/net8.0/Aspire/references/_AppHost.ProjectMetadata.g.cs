@@ -8,5 +8,5 @@ namespace Projects;
 public class AspireTodoApp_AppHost
 {
     private AspireTodoApp_AppHost() { }
-    public static string ProjectPath => """C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.AppHost""";
+    public static string ProjectPath => """/Users/vaibhav/AIPoweredLearninwithCSharp/AIPoweredLearninwithCSharp/ToDoWebAppList-master/ToDoAspireAppList-master/AspireTodoApp/AspireTodoApp.AppHost""";
 }

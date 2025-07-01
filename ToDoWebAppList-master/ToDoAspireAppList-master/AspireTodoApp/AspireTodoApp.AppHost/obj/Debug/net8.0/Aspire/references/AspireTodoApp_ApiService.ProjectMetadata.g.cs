@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class AspireTodoApp_ApiService : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\rishah\OneDrive\Pictures\Desktop\Microsoft ML.NET\ToDoWebAppList-master\ToDoAspireAppList-master\AspireTodoApp\AspireTodoApp.ApiService\AspireTodoApp.ApiService.csproj""";
+    public string ProjectPath => """/Users/vaibhav/AIPoweredLearninwithCSharp/AIPoweredLearninwithCSharp/ToDoWebAppList-master/ToDoAspireAppList-master/AspireTodoApp/AspireTodoApp.ApiService/AspireTodoApp.ApiService.csproj""";
 }

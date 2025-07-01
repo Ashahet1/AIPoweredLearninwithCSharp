@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoAspireAppList-master\\AspireTodoApp\\AspireTodoApp.ServiceDefaults\\AspireTodoApp.ServiceDefaults.csproj": {}
+    "/Users/vaibhav/AIPoweredLearninwithCSharp/AIPoweredLearninwithCSharp/ToDoWebAppList-master/ToDoAspireAppList-master/AspireTodoApp/AspireTodoApp.ServiceDefaults/AspireTodoApp.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoAspireAppList-master\\AspireTodoApp\\AspireTodoApp.ServiceDefaults\\AspireTodoApp.ServiceDefaults.csproj": {
+    "/Users/vaibhav/AIPoweredLearninwithCSharp/AIPoweredLearninwithCSharp/ToDoWebAppList-master/ToDoAspireAppList-master/AspireTodoApp/AspireTodoApp.ServiceDefaults/AspireTodoApp.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoAspireAppList-master\\AspireTodoApp\\AspireTodoApp.ServiceDefaults\\AspireTodoApp.ServiceDefaults.csproj",
+        "projectUniqueName": "/Users/vaibhav/AIPoweredLearninwithCSharp/AIPoweredLearninwithCSharp/ToDoWebAppList-master/ToDoAspireAppList-master/AspireTodoApp/AspireTodoApp.ServiceDefaults/AspireTodoApp.ServiceDefaults.csproj",
         "projectName": "AspireTodoApp.ServiceDefaults",
-        "projectPath": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoAspireAppList-master\\AspireTodoApp\\AspireTodoApp.ServiceDefaults\\AspireTodoApp.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\rishah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rishah\\OneDrive\\Pictures\\Desktop\\Microsoft ML.NET\\ToDoWebAppList-master\\ToDoAspireAppList-master\\AspireTodoApp\\AspireTodoApp.ServiceDefaults\\obj\\",
+        "projectPath": "/Users/vaibhav/AIPoweredLearninwithCSharp/AIPoweredLearninwithCSharp/ToDoWebAppList-master/ToDoAspireAppList-master/AspireTodoApp/AspireTodoApp.ServiceDefaults/AspireTodoApp.ServiceDefaults.csproj",
+        "packagesPath": "/Users/vaibhav/.nuget/packages/",
+        "outputPath": "/Users/vaibhav/AIPoweredLearninwithCSharp/AIPoweredLearninwithCSharp/ToDoWebAppList-master/ToDoAspireAppList-master/AspireTodoApp/AspireTodoApp.ServiceDefaults/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rishah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/vaibhav/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -92,6 +84,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -100,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
